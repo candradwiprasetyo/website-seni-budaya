@@ -1,0 +1,321 @@
+
+html {
+  -webkit-font-smoothing: antialiased;
+}
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100% !important;
+  background: black;
+  background-size: 100%;
+  font-size:18px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  padding: 30px 100px;
+  display: flex;
+  background:  radial-gradient(circle at 5% 0%, #34167D 0%, rgba(0, 0, 0, 0) 14.0777587890625%);
+}
+
+.header-left {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.header-right {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.header-right-menu {
+  padding: 0 20px;
+}
+
+.header-right a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.banner {
+  background-color: #464851;
+  padding: 100px;
+  position: relative;
+}
+
+.banner-img {
+  width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.banner-img img {
+  width: 100%;
+  border-radius: 8px;
+  position: relative;
+}
+
+.banner-overlay {
+  background-color: black;
+  padding: 100px;
+  width: 700px;
+  position: absolute;
+  bottom: 50px;
+  right: 160px;
+  border-radius: 8px;
+}
+
+.title {
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+.description-product {
+  line-height: 32px;
+  margin-bottom: 40px;
+  width: 500px;
+}
+
+.product {
+  padding: 60px 120px;
+}
+
+.gallery-container img {
+  width: 100%;
+  object-fit: contain;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.gallery-container {
+  column-count: 3;
+  column-gap: 20px 20px;
+}
+ 
+figure {
+  margin: 0;
+  display: inline-block;
+  margin-bottom: 0px;
+  width: 100%;
+}
+
+.event {
+  padding: 60px 120px;
+}
+
+.event-title {
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.event-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 40px;
+  row-gap: 40px;
+}
+
+.event-card {
+  background-color: #464851;
+  width: 100%;
+  display: flex;
+}
+
+.event-card-left {
+  width: 50%;
+  min-height: 240px;
+}
+
+.event-card-right {
+  width: 50%;
+  min-height: 240px;
+  padding: 20px;
+  position: relative;
+  padding-top: 30px;
+}
+
+.event-card-right .title {
+  font-size: 22px;
+  margin-top: 30px;
+  line-height: 32px;
+}
+
+.event-card-right .button {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  background-color: #8365C7;
+  padding: 16px;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  outline: none;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.galeri {
+  padding: 60px 120px;
+}
+
+.galeri-title {
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.galeri-description {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.galeri-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 40px;
+  row-gap: 40px;
+}
+
+.galeri-card {
+  background-color: #464851;
+  width: 100%;
+}
+
+.galeri-card-left {
+  width: 100%;
+  min-height: 280px;
+}
+
+.galeri-card-bottom {
+  padding: 30px;
+}
+
+.galeri-card-bottom .date {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.galeri-card-bottom .title {
+  font-size: 16px;
+  line-height: 32px;
+  margin-bottom: 0;
+}
+
+.footer {
+  display: flex;
+  padding: 60px 120px;
+  font-size: 16px;
+}
+
+.banner-acara-title {
+  font-size: 48px;
+  padding: 20px;
+  background-color: black;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: 120px;
+  left: 20%;
+  right: 20%;
+  text-align: center;
+}
+
+.forum {
+  background-color: #464851;
+  margin: 30px;
+  padding: 80px;
+}
+
+.forum-title {
+  font-size: 40px;
+  margin-bottom: 60px;
+}
+
+.forum-card {
+  display: flex;
+  margin-bottom: 60px;
+}
+
+.forum-card-left {
+  width: 30%;
+}
+
+.forum-date {
+  margin-bottom: 20px;
+}
+
+.forum-card-right {
+  width: 70%;
+}
+
+.kontak {
+  padding: 60px 200px;
+}
+
+.kontak-title {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.kontak-description {
+  line-height: 32px;
+  padding-right: 30%;
+  margin-bottom: 60px;
+}
+
+.form-kontak {
+  display: flex;
+  column-gap: 40px;
+}
+
+.form-kontak-left {
+  width: 50%;
+}
+
+.form-kontak-right {
+  width: 50%;
+}
+
+.textfield {
+  border: 1px solid #fff;
+  background-color: black;
+  padding: 10px;
+  color: #fff;
+  width: 95%;
+  margin-bottom: 20px;
+}
+
+.form-title {
+  margin-bottom: 5px;
+}
+
+.textarea {
+  border: 1px solid #fff;
+  background-color: black;
+  padding: 10px;
+  width: 95%;
+  height: 183px;
+  color: #fff;
+}
+
+.form-kontak-right .button {
+  bottom: 30px;
+  right: 30px;
+  background-color: #8365C7;
+  padding: 16px 32px;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  float: right;
+}
